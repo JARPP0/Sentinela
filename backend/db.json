@@ -1,0 +1,85 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "usuario": "AA",
+      "senha": "Senha1235",
+      "tipo": "triagem"
+    },
+    {
+      "id": 2,
+      "usuario": "medico1",
+      "senha": "123",
+      "tipo": "medico"
+    },
+    {
+      "id": 3,
+      "usuario": "atendente1",
+      "senha": "123",
+      "tipo": "atendimento"
+    },
+    {
+      "id": 1792678046553,
+      "usuario": "Aa",
+      "senha": "555",
+      "tipo": "triagem"
+    }
+  ],
+  "pacientes": [
+    {
+      "id": 1713500000000,
+      "nome": "Carlos Silva",
+      "cpf": "123.456.789-00",
+      "tipo": "Particular",
+      "status": "triagem",
+      "createdAt": "2026-10-22T10:00:00.000Z"
+    },
+    {
+      "id": 1713500001000,
+      "nome": "Ana Souza",
+      "cpf": "987.654.321-11",
+      "tipo": "Convenio",
+      "status": "triagem",
+      "createdAt": "2026-10-22T10:05:00.000Z"
+    }
+  ],
+  "triagens": [
+    {
+      "id": 1713500002000,
+      "nome": "João Pereira",
+      "sintoma": "Dor de cabeça forte e febre",
+      "temperatura": 38.5,
+      "alergia": "Dipirona",
+      "observacao": "Paciente relata tontura.",
+      "risco": "amarelo",
+      "status": "aguardando_medico",
+      "createdAt": "2026-10-22T10:10:00.000Z"
+    }
+  ],
+  "consultas": [
+    {
+      "id": 1713500003000,
+      "paciente": "Maria Oliveira",
+      "diagnostico": "Gripe comum",
+      "medicacao": "Paracetamol",
+      "obs": "Repouso por 3 dias.",
+      "createdAt": "2026-10-22T09:30:00.000Z"
+    }
+  ],
+  "chamadas": [
+    {
+      "id": 1792678165190,
+      "paciente": "Carlos Silva",
+      "localTipo": "GUICHÊ",
+      "localNumero": "01"
+    }
+  ],
+  "historicoChamadas": [
+    {
+      "id": 1792678165190,
+      "paciente": "Carlos Silva",
+      "localTipo": "GUICHÊ",
+      "localNumero": "01"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+body, html{
+  background-color: rgb(244, 244, 255);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+h2{
+  color: rgb(74, 143, 255);
+}
+input{
+  background-color: rgb(183, 207, 255);
+  border: none
+}
+input::placeholder, input{
+  color: rgb(238, 246, 255);
+}
+button{
+  background-color: hsl(212, 100%, 60%);
+  border: none;
+  color: white;
+  &:hover{
+    background-color: hsl(212, 80%, 70%);
+  }
+  &:active{
+    background-color: hsl(212, 60%, 80%);
+  }
+}
+option{
+  background-color: rgb(231, 232, 255);;
+}
+#foto{
+  background-color: rgb(164, 199, 255);
+  color: white;
+}
+.container{
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0 0 2px 1px rgba(123, 130, 255, 0.098);
+}

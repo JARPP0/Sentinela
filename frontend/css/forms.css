@@ -35,7 +35,7 @@ h2{
 }
 input{
   background-color: rgb(183, 207, 255);
-  border: 2px solid red;
+  border: 2px solid hsl(212, 100%, 60%);
 }
 input::placeholder, input{
   color: rgb(238, 246, 255);

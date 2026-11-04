@@ -1,11 +1,30 @@
 body, html{
-  background-color: rgb(244, 244, 255);
+  background: linear-gradient(0deg, rgb(201, 209, 238), rgb(176, 197, 255));
   padding: 0;
   margin: 0;
   display: flex;
   height: 100vh;
   justify-content: center;
   align-items: center;
+}
+.navbar{
+  background-color: hsl(212, 100%, 60%);
+  padding-bottom: 5px;
+  color: white;
+  width: 100vw;
+  top: 0;
+  position: absolute;
+}
+.nav-text{
+  display: flex;
+  transform: translateY(-24px);
+}
+#formUsuario *{
+  margin-bottom: 10px;
+}
+#tipo{
+  background-color: hsl(212, 100%, 60%);
+  color: white;
 }
 *{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
